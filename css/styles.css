@@ -101,6 +101,14 @@ p {
   text-align-last: left;
 }
 
+/* Center text in header and footer copyright specifically */
+header p,
+footer .footer-copy {
+  text-align: center !important; /* force center alignment */
+  text-align-last: center;        /* ensures last line centers */
+  margin: 0;
+}
+
 /* Footer */
 footer {
   background: #333;
@@ -145,3 +153,4 @@ footer {
     hyphens: none;
   }
 }
+
