@@ -120,3 +120,24 @@ footer {
     gap: 10px;
   }
 }
+
+/* Footer Author Section */
+.footer-author {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  text-align: justify; /* ✅ makes text justified */
+  line-height: 1.7;
+}
+
+.footer-author h3 {
+  font-family: 'Bangers', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ff9900; /* match site orange */
+}
+
+.footer-copy {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: #ccc;
+}
