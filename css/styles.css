@@ -141,3 +141,47 @@ footer {
   font-size: 0.85rem;
   color: #ccc;
 }
+/* Fix for rectangular cards */
+.rect-card {
+  background-color: #fff7f0;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+/* Justify all text */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  text-align-last: left; /* last line aligns left for better look */
+}
+
+/* Footer author section */
+.footer-author {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+.footer-author h3 {
+  font-family: 'Bangers', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ff9900;
+}
+
+.footer-copy {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+/* On very small screens, avoid wide gaps */
+@media (max-width: 480px) {
+  p {
+    text-align: left;
+  }
+}
+
