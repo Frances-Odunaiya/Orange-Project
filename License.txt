@@ -1,10 +1,3 @@
-LAB 3 - License.txt
-
-Student Name: Frances Odunaiya
-
-Topic: Orange
-
-
 ***Legal Information****
 
 Licenses and Permissions
@@ -26,4 +19,5 @@ Image by <a href="https://pixabay.com/users/lucasgrey-679745/?utm_source=link-at
 Photo of Pile Of Oranges
   
 Photo by julie aagaard: https://www.pexels.com/photo/photo-of-pile-of-oranges-2294477/
+
       
